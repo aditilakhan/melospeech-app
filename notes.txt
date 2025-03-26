@@ -1,0 +1,26 @@
+Setup python download and install 3.10
+
+python --version
+pip --version
+
+python -m venv melospeech_env                      #create virtual env 
+melospeech_env\Scripts\activate  
+
+pip install numpy pandas matplotlib seaborn        #pip install all libraries  
+pip install librosa # For audio processing  
+pip install speechrecognition  
+pip install nltk # For Natural Language Processing  
+pip install torch torchvision torchaudio # If using PyTorch for ML  
+pip install tensorflow keras # If using TensorFlow  
+pip install scikit-learn  
+pip install pyqt6 # If using PyQt for GUI  
+pip install customtkinter # If using Tkinter for GUI  
+pip install sqlite3 # For database (or use MySQL/PostgreSQL)  
+
+GUI (User Interface) – Using Tkinter/PyQt for the app window.
+Audio Processing Module – Using Librosa & SpeechRecognition to process music.
+Machine Learning Model – Implement ML algorithms to enhance language learning.
+Database (SQLite/MySQL) – Store user progress & data.
+Backend (Flask/Django - optional) – If needed for API interactions.
+
+
